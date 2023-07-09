@@ -1,12 +1,9 @@
 # How to Use the Gmail API in Node.js - A Step-by-Step Tutorial
 
-[![](https://badgen.net/badge/Run%20this%20/README/5B3ADF?icon=https://runme.dev/img/logo.svg)](https://runme.dev/api/runme?repository=https://github.com/stateful/blog-examples.git&fileToOpen=gmail-api-nodejs-app/README.md)
-
-These are the example files used by the blog post [*"How to Use the Gmail API in Node.js - A Step-by-Step Tutorial"*](https://stateful.com/blog/gmail-api-node-tutorial). Check it out for more details. To run the files you need to have [Node.js](https://nodejs.org/en/) installed.
+To run the files you need to have [Node.js](https://nodejs.org/en/) installed.
 
 ## Gmail API Setup in Node.JS
-
-In order to use any Google API, there are some prerequisite steps we need to perform. Please follow the step-by-step instructions from the original [blog post](https://stateful.com/blog/gmail-api-node-tutorial). Make sure to create a `.env` file as described in the post or run this with [Runme](https://runme.dev) and enter values dynamically before you continue:
+Make sure to create a `.env` file as described in the post or run this with [Runme](https://runme.dev) and enter values dynamically before you continue:
 
 ```sh
 export PORT=8000
@@ -66,6 +63,4 @@ curl http://localhost:8000/api/mail/read/17f63b4513fb51c0
 curl http://localhost:8000/api/mail/send
 ```
 
----
 
-If you experience any issues with the example or have questions on how to run it, please don't hesitate to [join us on Discord](https://discord.com/invite/BQm8zRCBUY)!
